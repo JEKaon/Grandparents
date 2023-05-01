@@ -1,0 +1,87 @@
+footer {
+   clear: both;
+}
+
+
+/*titles and sub- title*/
+h1 {
+   font-size: 5vmin;
+   letter-spacing: 2px;
+   text-align: center;
+   padding: 20px;
+   margin: 5%;
+   background-image: url('/AboutUs/aboutus.png');
+   color: whitesmoke;
+   animation: mymove 5s;
+}
+
+@keyframes mymove {
+   form {
+      background-color: rgb(201, 238, 240);
+   }
+
+   to {
+      background-color: rgba(141, 107, 182, 0.5);
+   }
+
+   from {
+      margin: 0%;
+   }
+
+   to {
+      margin: 5%;
+   }
+}
+
+@keyframes movement {}
+
+h2 {
+   font-size: 5vmin;
+}
+
+b {
+   font-size: 1.5em;
+   font-variant: small-caps;
+}
+
+.abus {
+   background-color: lightblue;
+   font-variant: small-caps;
+}
+
+/*Contact Us*/
+article.r2 {
+
+   float: left;
+   clear: left;
+   padding: 5% 10% 5% 10%;
+   background-color: khaki;
+}
+
+/*About Us*/
+article.r1 div {
+
+   float: left;
+   clear: left;
+   padding: 5% 10% 5% 10%;
+}
+
+.r1 {
+   display: table;
+   height: 20vh;
+   width: 100%;
+   background-image: url('/marble.jpg');
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+@media only screen and (max-width: 900px) {
+   .transition-image {
+      display: none;
+   }
+
+   .transition-image2 {
+      display: none;
+   }
+}
